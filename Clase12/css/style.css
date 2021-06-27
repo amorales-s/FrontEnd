@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    /* padding: 0; */
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header div.topHeader{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 60px 4px 90px;
+}
+
+
+header div.topHeader div.containerSelects span{ 
+    margin-left: 20px;
+}
+
+header div.primaryContent_Header{
+    display: flex;
+    justify-content: space-between;
+    background: #F0A83E;
+    padding: 22px 40px 22px 58px;
+}
+
+header div.primaryContent_Header nav ul{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+/*  main   */
+
+main section.primaryText img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+main section.primaryText div.textSlide{
+    width: 400px;
+    position: relative;
+    top: 200px;
+    left: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section.primaryText div.textSlide button{
+    background: #F0A83E;
+    width: 141px;
+    height: 49px;
+}
+
+section.productos .container {
+    width: 90%;
+    margin: 27rem auto;
+}
+
+.productos-header{
+    text-align: center;
+}
+
+.productos-header h2 {
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.productos-header a {    
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.productos-articulos {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.productos-articulos article {
+    background-color: #FBFAF6;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.productos-articulos article h4 {
+    color: #3C2313;    
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.productos-articulos article p {
+    color: #F0A83E;    
+    font-size: 15px;
+    font-weight: 700;
+}
+.contacto-links {
+    background-color: #3C2313;
+    height: auto;
+}
+
+.contacto-links .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+    width: 90%;
+}
+
+.link-item {
+    display: flex;    
+    align-items: center;   
+    color: #fff;    
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.link-item div {
+    margin-left: 30px;
+}
+
+.link-item div h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.link-item div p {
+    color: #8A8787;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+/* footer */
+
+footer {
+    background-color: #222222;
+    color: #fff;
+    text-align: center;    
+}
+
+footer p {
+    padding: 5px;
+}
